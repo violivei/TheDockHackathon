@@ -64,9 +64,9 @@ def get_results(args, H):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', required=True)
+    # parser.add_argument('--weights', required=True)
     parser.add_argument('--expname', default='')
-    parser.add_argument('--test_boxes', required=True)
+    # parser.add_argument('--test_boxes', required=True)
     parser.add_argument('--gpu', default=0)
     parser.add_argument('--logdir', default='output')
     parser.add_argument('--iou_threshold', default=0.5, type=float)
